@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FF90B1A1C61157B00F342F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B191C61157B00F342F4 /* main.m */; };
+		6FF90B1D1C61157B00F342F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B1C1C61157B00F342F4 /* AppDelegate.m */; };
+		6FF90B201C61157B00F342F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B1F1C61157B00F342F4 /* ViewController.m */; };
+		6FF90B231C61157B00F342F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF90B211C61157B00F342F4 /* Main.storyboard */; };
+		6FF90B251C61157B00F342F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF90B241C61157B00F342F4 /* Assets.xcassets */; };
+		6FF90B281C61157B00F342F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF90B261C61157B00F342F4 /* LaunchScreen.storyboard */; };
+		6FF90B3F1C61198C00F342F4 /* Egg.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B3E1C61198C00F342F4 /* Egg.m */; };
+		6FF90B411C6119C500F342F4 /* Eggs.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FF90B401C6119C500F342F4 /* Eggs.json */; };
+		6FF90B441C61202900F342F4 /* BetterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B431C61202900F342F4 /* BetterViewController.m */; };
+		6FF90B471C61204800F342F4 /* EggsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B461C61204800F342F4 /* EggsDataSource.m */; };
+		6FF90B591C63683B00F342F4 /* EggsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B581C63683B00F342F4 /* EggsPickerController.m */; };
+		6FF90B5C1C63694A00F342F4 /* EggModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B5B1C63694A00F342F4 /* EggModelView.m */; };
+		6FF90B5E1C63A1EB00F342F4 /* EggModelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B5D1C63A1EB00F342F4 /* EggModelViewTests.m */; };
+		6FF90B601C63A30F00F342F4 /* EggDataSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B5F1C63A30F00F342F4 /* EggDataSourceTests.m */; };
+		6FF90B621C63A32300F342F4 /* testEggs.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FF90B611C63A32300F342F4 /* testEggs.json */; };
+		6FF90B641C63A3A500F342F4 /* malformedEggsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FF90B631C63A3A500F342F4 /* malformedEggsData.json */; };
+		6FF90B661C63A48D00F342F4 /* BetterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B651C63A48D00F342F4 /* BetterViewControllerTests.m */; };
+		6FF90B691C63A6B600F342F4 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF90B681C63A6B600F342F4 /* libOCMock.a */; };
+		6FF90B6C1C63A8A100F342F4 /* EggsPickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B6B1C63A8A100F342F4 /* EggsPickerControllerTests.m */; };
+		6FF90B6E1C63AA9800F342F4 /* EggTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF90B6D1C63AA9800F342F4 /* EggTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FF90B2F1C61157C00F342F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FF90B0D1C61157B00F342F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FF90B141C61157B00F342F4;
+			remoteInfo = EggXample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FF90B151C61157B00F342F4 /* EggXample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggXample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF90B191C61157B00F342F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FF90B1B1C61157B00F342F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FF90B1C1C61157B00F342F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FF90B1E1C61157B00F342F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FF90B1F1C61157B00F342F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FF90B221C61157B00F342F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FF90B241C61157B00F342F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FF90B271C61157B00F342F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FF90B291C61157B00F342F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF90B2E1C61157C00F342F4 /* EggXampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggXampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF90B341C61157C00F342F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF90B3D1C61198C00F342F4 /* Egg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Egg.h; sourceTree = "<group>"; };
+		6FF90B3E1C61198C00F342F4 /* Egg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Egg.m; sourceTree = "<group>"; };
+		6FF90B401C6119C500F342F4 /* Eggs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eggs.json; sourceTree = "<group>"; };
+		6FF90B421C61202900F342F4 /* BetterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterViewController.h; sourceTree = "<group>"; };
+		6FF90B431C61202900F342F4 /* BetterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterViewController.m; sourceTree = "<group>"; };
+		6FF90B451C61204800F342F4 /* EggsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EggsDataSource.h; sourceTree = "<group>"; };
+		6FF90B461C61204800F342F4 /* EggsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggsDataSource.m; sourceTree = "<group>"; };
+		6FF90B571C63683A00F342F4 /* EggsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EggsPickerController.h; sourceTree = "<group>"; };
+		6FF90B581C63683B00F342F4 /* EggsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggsPickerController.m; sourceTree = "<group>"; };
+		6FF90B5A1C63694A00F342F4 /* EggModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EggModelView.h; sourceTree = "<group>"; };
+		6FF90B5B1C63694A00F342F4 /* EggModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggModelView.m; sourceTree = "<group>"; };
+		6FF90B5D1C63A1EB00F342F4 /* EggModelViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggModelViewTests.m; sourceTree = "<group>"; };
+		6FF90B5F1C63A30F00F342F4 /* EggDataSourceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggDataSourceTests.m; sourceTree = "<group>"; };
+		6FF90B611C63A32300F342F4 /* testEggs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testEggs.json; sourceTree = "<group>"; };
+		6FF90B631C63A3A500F342F4 /* malformedEggsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = malformedEggsData.json; sourceTree = "<group>"; };
+		6FF90B651C63A48D00F342F4 /* BetterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterViewControllerTests.m; sourceTree = "<group>"; };
+		6FF90B681C63A6B600F342F4 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = EggXampleTests/lib/OCMock/libOCMock.a; sourceTree = "<group>"; };
+		6FF90B6B1C63A8A100F342F4 /* EggsPickerControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggsPickerControllerTests.m; sourceTree = "<group>"; };
+		6FF90B6D1C63AA9800F342F4 /* EggTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF90B121C61157B00F342F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF90B2B1C61157C00F342F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF90B691C63A6B600F342F4 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FF90B0C1C61157B00F342F4 = {
+			isa = PBXGroup;
+			children = (
+				6FF90B171C61157B00F342F4 /* EggXample */,
+				6FF90B311C61157C00F342F4 /* EggXampleTests */,
+				6FF90B161C61157B00F342F4 /* Products */,
+				6FF90B6A1C63A6BC00F342F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF90B161C61157B00F342F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF90B151C61157B00F342F4 /* EggXample.app */,
+				6FF90B2E1C61157C00F342F4 /* EggXampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF90B171C61157B00F342F4 /* EggXample */ = {
+			isa = PBXGroup;
+			children = (
+				6FF90B1B1C61157B00F342F4 /* AppDelegate.h */,
+				6FF90B1C1C61157B00F342F4 /* AppDelegate.m */,
+				6FF90B1E1C61157B00F342F4 /* ViewController.h */,
+				6FF90B1F1C61157B00F342F4 /* ViewController.m */,
+				6FF90B211C61157B00F342F4 /* Main.storyboard */,
+				6FF90B241C61157B00F342F4 /* Assets.xcassets */,
+				6FF90B261C61157B00F342F4 /* LaunchScreen.storyboard */,
+				6FF90B291C61157B00F342F4 /* Info.plist */,
+				6FF90B181C61157B00F342F4 /* Supporting Files */,
+				6FF90B3D1C61198C00F342F4 /* Egg.h */,
+				6FF90B3E1C61198C00F342F4 /* Egg.m */,
+				6FF90B401C6119C500F342F4 /* Eggs.json */,
+				6FF90B421C61202900F342F4 /* BetterViewController.h */,
+				6FF90B431C61202900F342F4 /* BetterViewController.m */,
+				6FF90B451C61204800F342F4 /* EggsDataSource.h */,
+				6FF90B461C61204800F342F4 /* EggsDataSource.m */,
+				6FF90B571C63683A00F342F4 /* EggsPickerController.h */,
+				6FF90B581C63683B00F342F4 /* EggsPickerController.m */,
+				6FF90B5A1C63694A00F342F4 /* EggModelView.h */,
+				6FF90B5B1C63694A00F342F4 /* EggModelView.m */,
+			);
+			path = EggXample;
+			sourceTree = "<group>";
+		};
+		6FF90B181C61157B00F342F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FF90B191C61157B00F342F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FF90B311C61157C00F342F4 /* EggXampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FF90B341C61157C00F342F4 /* Info.plist */,
+				6FF90B651C63A48D00F342F4 /* BetterViewControllerTests.m */,
+				6FF90B6B1C63A8A100F342F4 /* EggsPickerControllerTests.m */,
+				6FF90B5D1C63A1EB00F342F4 /* EggModelViewTests.m */,
+				6FF90B5F1C63A30F00F342F4 /* EggDataSourceTests.m */,
+				6FF90B6D1C63AA9800F342F4 /* EggTest.m */,
+				6FF90B611C63A32300F342F4 /* testEggs.json */,
+				6FF90B631C63A3A500F342F4 /* malformedEggsData.json */,
+			);
+			path = EggXampleTests;
+			sourceTree = "<group>";
+		};
+		6FF90B6A1C63A6BC00F342F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FF90B681C63A6B600F342F4 /* libOCMock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF90B141C61157B00F342F4 /* EggXample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF90B371C61157C00F342F4 /* Build configuration list for PBXNativeTarget "EggXample" */;
+			buildPhases = (
+				6FF90B111C61157B00F342F4 /* Sources */,
+				6FF90B121C61157B00F342F4 /* Frameworks */,
+				6FF90B131C61157B00F342F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggXample;
+			productName = EggXample;
+			productReference = 6FF90B151C61157B00F342F4 /* EggXample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FF90B2D1C61157C00F342F4 /* EggXampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF90B3A1C61157C00F342F4 /* Build configuration list for PBXNativeTarget "EggXampleTests" */;
+			buildPhases = (
+				6FF90B2A1C61157C00F342F4 /* Sources */,
+				6FF90B2B1C61157C00F342F4 /* Frameworks */,
+				6FF90B2C1C61157C00F342F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FF90B301C61157C00F342F4 /* PBXTargetDependency */,
+			);
+			name = EggXampleTests;
+			productName = EggXampleTests;
+			productReference = 6FF90B2E1C61157C00F342F4 /* EggXampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF90B0D1C61157B00F342F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "iOS Workshop";
+				TargetAttributes = {
+					6FF90B141C61157B00F342F4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6FF90B2D1C61157C00F342F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6FF90B141C61157B00F342F4;
+					};
+				};
+			};
+			buildConfigurationList = 6FF90B101C61157B00F342F4 /* Build configuration list for PBXProject "EggXample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FF90B0C1C61157B00F342F4;
+			productRefGroup = 6FF90B161C61157B00F342F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF90B141C61157B00F342F4 /* EggXample */,
+				6FF90B2D1C61157C00F342F4 /* EggXampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF90B131C61157B00F342F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF90B281C61157B00F342F4 /* LaunchScreen.storyboard in Resources */,
+				6FF90B251C61157B00F342F4 /* Assets.xcassets in Resources */,
+				6FF90B231C61157B00F342F4 /* Main.storyboard in Resources */,
+				6FF90B411C6119C500F342F4 /* Eggs.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF90B2C1C61157C00F342F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF90B621C63A32300F342F4 /* testEggs.json in Resources */,
+				6FF90B641C63A3A500F342F4 /* malformedEggsData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF90B111C61157B00F342F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF90B5C1C63694A00F342F4 /* EggModelView.m in Sources */,
+				6FF90B591C63683B00F342F4 /* EggsPickerController.m in Sources */,
+				6FF90B201C61157B00F342F4 /* ViewController.m in Sources */,
+				6FF90B1D1C61157B00F342F4 /* AppDelegate.m in Sources */,
+				6FF90B1A1C61157B00F342F4 /* main.m in Sources */,
+				6FF90B3F1C61198C00F342F4 /* Egg.m in Sources */,
+				6FF90B471C61204800F342F4 /* EggsDataSource.m in Sources */,
+				6FF90B441C61202900F342F4 /* BetterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF90B2A1C61157C00F342F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF90B5E1C63A1EB00F342F4 /* EggModelViewTests.m in Sources */,
+				6FF90B601C63A30F00F342F4 /* EggDataSourceTests.m in Sources */,
+				6FF90B6E1C63AA9800F342F4 /* EggTest.m in Sources */,
+				6FF90B661C63A48D00F342F4 /* BetterViewControllerTests.m in Sources */,
+				6FF90B6C1C63A8A100F342F4 /* EggsPickerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FF90B301C61157C00F342F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FF90B141C61157B00F342F4 /* EggXample */;
+			targetProxy = 6FF90B2F1C61157C00F342F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FF90B211C61157B00F342F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF90B221C61157B00F342F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FF90B261C61157B00F342F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF90B271C61157B00F342F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FF90B351C61157C00F342F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FF90B361C61157C00F342F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF90B381C61157C00F342F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EggXample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iosworkshop.EggXample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FF90B391C61157C00F342F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EggXample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iosworkshop.EggXample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FF90B3B1C61157C00F342F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/EggXampleTests/lib/OCMock";
+				INFOPLIST_FILE = EggXampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EggXampleTests/lib/OCMock/",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iosworkshop.EggXampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggXample.app/EggXample";
+			};
+			name = Debug;
+		};
+		6FF90B3C1C61157C00F342F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/EggXampleTests/lib/OCMock";
+				INFOPLIST_FILE = EggXampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EggXampleTests/lib/OCMock/",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iosworkshop.EggXampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggXample.app/EggXample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF90B101C61157B00F342F4 /* Build configuration list for PBXProject "EggXample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF90B351C61157C00F342F4 /* Debug */,
+				6FF90B361C61157C00F342F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF90B371C61157C00F342F4 /* Build configuration list for PBXNativeTarget "EggXample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF90B381C61157C00F342F4 /* Debug */,
+				6FF90B391C61157C00F342F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF90B3A1C61157C00F342F4 /* Build configuration list for PBXNativeTarget "EggXampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF90B3B1C61157C00F342F4 /* Debug */,
+				6FF90B3C1C61157C00F342F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF90B0D1C61157B00F342F4 /* Project object */;
+}
